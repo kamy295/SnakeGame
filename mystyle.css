@@ -72,7 +72,12 @@ body{
 
 /* Hide onScreenControllers on Desktop */
 #onScreenControllers{
-    display: none;
+    font-family: 'Lato', sans-serif;    
+    text-align: center;
+    width: 500px;
+    height: 120px;
+    margin: auto;
+
 }
 
 .developerDetails{

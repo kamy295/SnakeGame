@@ -13,7 +13,14 @@
 <body>
     <!-- #gameContainer is the main board for the game-->
     <div id="gameContainer"></div>
-
+    <div id="onScreenControllers">
+        <button id="upButton">🔼</button>
+        <div>
+            <button id="leftButton">◀️</button>
+            <button id="rightButton">▶️</button>           
+        </div>        
+        <button id="downButton">🔽</button>
+    </div>
     <!-- #scoreContainer contains the scoreof the snake-->
     <div id="scoreContainer">
         <div class="scoreBoard">Coins: <span id="pointsEarned">0</span></div>
@@ -21,15 +28,7 @@
     </div>
 
     <!-- #onScreenControllers contains the navigation buttons for the screen-->
-    <div id="onScreenControllers">
-        <button id="leftButton">◀️</button>
-        <div>
-            <button id="upButton">🔼</button>
-            <button id="downButton">🔽</button>
-        </div>
-        <button id="rightButton">▶️</button>
-    </div>
-
+    
     <div class="developerDetails">
         <div>
             Developed By
