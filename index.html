@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    
+</head>
+
+<body>
+    <!-- #gameContainer is the main board for the game-->
+    <div id="gameContainer"></div>
+
+    <!-- #scoreContainer contains the scoreof the snake-->
+    <div id="scoreContainer">
+        <div class="scoreBoard">Coins: <span id="pointsEarned">0</span></div>
+        <div class="scoreBoard">Blocks: <span id="blocksTravelled">0</span></div>
+    </div>
+
+    <!-- #onScreenControllers contains the navigation buttons for the screen-->
+    <div id="onScreenControllers">
+        <button id="leftButton">◀️</button>
+        <div>
+            <button id="upButton">🔼</button>
+            <button id="downButton">🔽</button>
+        </div>
+        <button id="rightButton">▶️</button>
+    </div>
+
+    <div class="developerDetails">
+        <div>
+            Developed By
+            <a href="" target=""> Kamlesh Kamble</a>
+        </div>
+        <div>
+            View Source Code on
+            <a href="" target="_blank">Github</a>
+        </div>
+    </div>
+</body>
+<!-- Lets Load Our Javascript File-->
+<script src="main.js"></script>
+
+</html>
